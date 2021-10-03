@@ -1,0 +1,72 @@
+{
+	"compiler": {
+		"version": "0.7.1+commit.f4a555be"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_text",
+						"type": "string"
+					}
+				],
+				"name": "Write",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "read",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/1_writeOfBlockchain.sol": "WritOnBlockchain"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/1_writeOfBlockchain.sol": {
+			"keccak256": "0x2f14aa0d0d253fbbd0f041e9c0d87ee05af5d814a504fa9e4fdc5e0cfc3f7e98",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://4f91b4cac354ee532c851132abc155e256b7fa90a542f83172e7ef0b9da236e6",
+				"dweb:/ipfs/QmdiMeRDtC5nkPLmkJWWpfUtz2y97Dv1uP2CSDPREw4GBE"
+			]
+		}
+	},
+	"version": 1
+}
